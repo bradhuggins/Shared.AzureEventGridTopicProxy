@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.AzureEventGridTopicProxy", "src\Shared.AzureEventGridTopicProxy\Shared.AzureEventGridTopicProxy.csproj", "{10F0189D-935B-41D1-BFBD-E50276E5DF51}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.AzureEventGridTopicProxy.Tests", "test\Shared.AzureEventGridTopicProxy.Tests\Shared.AzureEventGridTopicProxy.Tests.csproj", "{69EBDC2D-04FA-4F01-BC8B-08503C3EC2E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9078C925-571B-436B-8B92-138C17B76C64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{DFF748AC-3870-4A66-87E3-2B00AB24FBB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{73237969-FAA9-4CE2-98A9-0B7B89EC2BFB}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		CodeCoverage.runsettings = CodeCoverage.runsettings
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10F0189D-935B-41D1-BFBD-E50276E5DF51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10F0189D-935B-41D1-BFBD-E50276E5DF51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10F0189D-935B-41D1-BFBD-E50276E5DF51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10F0189D-935B-41D1-BFBD-E50276E5DF51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69EBDC2D-04FA-4F01-BC8B-08503C3EC2E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69EBDC2D-04FA-4F01-BC8B-08503C3EC2E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69EBDC2D-04FA-4F01-BC8B-08503C3EC2E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69EBDC2D-04FA-4F01-BC8B-08503C3EC2E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{10F0189D-935B-41D1-BFBD-E50276E5DF51} = {9078C925-571B-436B-8B92-138C17B76C64}
+		{69EBDC2D-04FA-4F01-BC8B-08503C3EC2E0} = {DFF748AC-3870-4A66-87E3-2B00AB24FBB4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52144B6A-25E8-4D77-B1F2-41C98D05F131}
+	EndGlobalSection
+EndGlobal
